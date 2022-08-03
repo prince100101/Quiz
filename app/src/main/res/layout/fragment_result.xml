@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultFragment">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/titillium_web_semibold"
+        android:textColor="#141959"
+        android:textSize="32sp"/>
+    <Button
+        android:theme="@style/StartQuiz"
+        android:id="@+id/btnRestart"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="replay"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32sp"
+        android:fontFamily="@font/titillium_web_extralight"
+        android:layout_marginTop="440dp"
+        />
+    <Button
+        android:theme="@style/StartQuiz"
+        android:id="@+id/btnEnd"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32sp"
+        android:fontFamily="@font/titillium_web_extralight"
+        android:layout_marginTop="500dp"
+        />
+
+
+</FrameLayout>
